@@ -13,7 +13,8 @@ public class evaluator {
             return "NO SE PUDO";
         }
         
-        // Separar por operadores + * / ^ √
+     
+        
         String[] operators = Operators(operation);
         // Separar los términos, incluyendo porcentajes, números y funciones especiales
         String[] numbers = Numbers(operation);
